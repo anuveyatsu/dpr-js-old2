@@ -1,0 +1,25 @@
+{
+    "data": {
+      "values": [
+        {"Date": "2016-12-01", "Price": 315},
+        {"Date": "2016-12-02", "Price": 341},
+        {"Date": "2016-12-03", "Price": 369},
+        {"Date": "2016-12-04", "Price": 360},
+        {"Date": "2016-12-05", "Price": 311},
+        {"Date": "2016-12-06", "Price": 321}
+      ]
+    },
+    "mark": "line",
+    "encoding": {
+      "x": {
+        "field": "Date",
+        "type": "temporal",
+        "axis": {"shortTimeLabels": true}
+      },
+      "y": {
+        "field": "Price",
+        "type": "quantitative",
+        "axis": {"title": "Price in USD"}
+      }
+    }
+}
